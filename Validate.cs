@@ -22,7 +22,7 @@ namespace Day19Problems
         }
 
         public static bool ValidatePassword(string password){
-            string pattern=@".{8,}$";
+            string pattern=@".{8,}[A-Z]$";
             Regex rx=new Regex(pattern);
             return rx.IsMatch(password);
         }
