@@ -1,0 +1,15 @@
+/home/luser/pgming/Day19Problems/bin/Debug/net6.0/Day19Problems
+/home/luser/pgming/Day19Problems/bin/Debug/net6.0/Day19Problems.deps.json
+/home/luser/pgming/Day19Problems/bin/Debug/net6.0/Day19Problems.runtimeconfig.json
+/home/luser/pgming/Day19Problems/bin/Debug/net6.0/Day19Problems.dll
+/home/luser/pgming/Day19Problems/bin/Debug/net6.0/ref/Day19Problems.dll
+/home/luser/pgming/Day19Problems/bin/Debug/net6.0/Day19Problems.pdb
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.csproj.AssemblyReference.cache
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.GeneratedMSBuildEditorConfig.editorconfig
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.AssemblyInfoInputs.cache
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.AssemblyInfo.cs
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.csproj.CoreCompileInputs.cache
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.dll
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/ref/Day19Problems.dll
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.pdb
+/home/luser/pgming/Day19Problems/obj/Debug/net6.0/Day19Problems.genruntimeconfig.cache
