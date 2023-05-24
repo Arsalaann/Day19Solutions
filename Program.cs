@@ -18,11 +18,17 @@
             //     Console.Write("Enter a valid Email: ");
             //     email=Console.ReadLine();
             // }
-            Console.Write("Enter phone number: ");
-            string number=Console.ReadLine();
-            while(Validate.ValidateNumber(number)!=true){
-                Console.Write("Enter a valid Nunmber: ");
-                number=Console.ReadLine();
+            // Console.Write("Enter phone number: ");
+            // string number=Console.ReadLine();
+            // while(Validate.ValidateNumber(number)!=true){
+            //     Console.Write("Enter a valid Nunmber: ");
+            //     number=Console.ReadLine();
+            // }
+            Console.Write("Enter password: ");
+            string password=Console.ReadLine();
+            while(Validate.ValidatePassword(password)!=true){
+                Console.Write("Enter a valid password: ");
+                password=Console.ReadLine();
             }
             
         }

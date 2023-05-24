@@ -20,5 +20,11 @@ namespace Day19Problems
             Regex rx=new Regex(pattern);
             return rx.IsMatch(number);
         }
+
+        public static bool ValidatePassword(string password){
+            string pattern=@".{8,}$";
+            Regex rx=new Regex(pattern);
+            return rx.IsMatch(password);
+        }
     }
 }
