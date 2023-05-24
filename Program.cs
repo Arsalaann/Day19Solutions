@@ -24,12 +24,29 @@
             //     Console.Write("Enter a valid Nunmber: ");
             //     number=Console.ReadLine();
             // }
-            Console.Write("Enter password: ");
-            string password=Console.ReadLine();
-            while(Validate.ValidatePassword(password)!=true){
-                Console.Write("Enter a valid password: ");
-                password=Console.ReadLine();
+            // Console.Write("Enter password: ");
+            // string password=Console.ReadLine();
+            // while(Validate.ValidatePassword(password)!=true){
+            //     Console.Write("Enter a valid password: ");
+            //     password=Console.ReadLine();
+            // }
+
+            string []names={"abc@yahoo.com",
+                            "abc-100@yahoo.com",
+                            "abc.100@yahoo.com",                  
+                            "abc111@abc.com",
+                            "abc-100@abc.net",
+                            "abc.100@abc.com.au",
+                            "abc@1.com",                         
+                            "abc@gmail.com.com",
+                            "abc+100@gmail.com",
+                        };
+            int res=0;
+            foreach(var name in names){
+                if(Validate.ValidateEmail(name)==true)
+                    res++;
             }
+            Console.WriteLine($"{res} emails passed out of {names.Length}");
             
         }
     }
