@@ -12,11 +12,17 @@
             //     Console.Write("Enter a valid Lastname: ");
             //     lastName=Console.ReadLine();
             // }
-            Console.Write("Enter email: ");
-            string email=Console.ReadLine();
-            while(Validate.ValidateEmail(email)!=true){
-                Console.Write("Enter a valid Email: ");
-                email=Console.ReadLine();
+            // Console.Write("Enter email: ");
+            // string email=Console.ReadLine();
+            // while(Validate.ValidateEmail(email)!=true){
+            //     Console.Write("Enter a valid Email: ");
+            //     email=Console.ReadLine();
+            // }
+            Console.Write("Enter phone number: ");
+            string number=Console.ReadLine();
+            while(Validate.ValidateNumber(number)!=true){
+                Console.Write("Enter a valid Nunmber: ");
+                number=Console.ReadLine();
             }
             
         }

@@ -14,5 +14,11 @@ namespace Day19Problems
             Regex rx=new Regex(pattern);
             return rx.IsMatch(email);
         }
+
+        public static bool ValidateNumber(string number){
+            string pattern=@"[0-9]{2}\s[0-9]{10}$";
+            Regex rx=new Regex(pattern);
+            return rx.IsMatch(number);
+        }
     }
 }
