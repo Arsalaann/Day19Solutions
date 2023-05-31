@@ -30,7 +30,16 @@
             //     Console.Write("Enter a valid password: ");
             //     password=Console.ReadLine();
             // }
+            Validate validate=new Validate();
 
+            Console.WriteLine("Name validation");
+            Console.WriteLine(validate.nameValidation("Hello"));
+            Console.WriteLine("LastName validation");
+            Console.WriteLine(validate.nameValidation("World"));
+            Console.WriteLine("Number validation");
+            Console.WriteLine(validate.nameValidation("839482398"));
+
+            Console.WriteLine("List of Emails validation");
             string []names={"abc@yahoo.com",
                             "abc-100@yahoo.com",
                             "abc.100@yahoo.com",                  
@@ -43,7 +52,7 @@
                         };
             int res=0;
             foreach(var name in names){
-                if(Validate.ValidateEmail(name)==true)
+                if(validate.emailValidation(name)==true)
                     res++;
             }
             Console.WriteLine($"{res} emails passed out of {names.Length}");
